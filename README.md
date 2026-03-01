@@ -9,7 +9,10 @@ Foundational repo for the BN Automobiles dealership platform. This document capt
 | **Goal** | Build a modern, lead-gen friendly web experience for BN Automobiles with room to grow into inventory browsing, financing calculators, and service booking. |
 | **Primary users** | Prospective car buyers researching BN Automobiles; existing customers looking for service/follow-ups. |
 | **Tone & brand** | Trustworthy, premium, locally rooted. Bold hero visuals + high-contrast CTA blocks. |
+| **Design benchmark** | Visual direction must feel on par with Awwwards-featured experiences (motion-rich, art-directed, obsessively polished). Every page should be justifiable against https://www.awwwards.com/ showcase references. |
 | **Platforms** | Responsive web (mobile-first). |
+
+> **Aesthetics are non-negotiable.** We are using Awwwards-level sites as the north star for layout, typography, micro-interactions, and immersive storytelling. Any design decision that drifts from that quality bar must be reworked until it feels award-ready.
 
 ## 2. Working Assumptions
 
