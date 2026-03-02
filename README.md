@@ -65,7 +65,15 @@ This structure keeps future multi-app expansion open while staying lightweight f
 | **P3 – Data wiring (2 days)** | Hook up CMS/JSON feed, integrate Google Maps + WhatsApp, form submission handler + email/webhook. | Live data powering UI + notifications. |
 | **P4 – Polish & Launch (2 days)** | SEO/meta, analytics, performance pass, accessibility audit, deploy to staging + prod. | Production release + handover notes. |
 
-## 6. Next Actions
+## 6. Implementation Snapshot (Mar 2)
+
+- ✅ **Turborepo workspace online** – root `bn-automobiles` workspace orchestrates `apps/*` + `packages/*` with Turbo tasks (dev/build/lint/typecheck).
+- ✅ **App scaffolded** – `apps/web` running Next.js 16 (App Router, Tailwind v4), preloaded with Awwwards-inspired landing page hero/services/testimonial blocks plus SEO metadata wiring.
+- ✅ **Shared packages** – `@bn/config` centralizes brand constants + metadata; `@bn/ui` ships reusable glassmorphism primitives (Aurora shell, metric pills, section headings).
+- ✅ **Tooling** – ESLint (core web vitals), TypeScript strict mode, and build/lint pipelines validated via `npm run lint` / `npm run build`.
+- 🔜 **Next up** – flesh out sitemap sections (inventory spotlight, concierge CTA, newsroom), wire CMS placeholder JSON, and introduce CI (GitHub Actions) + visual regression tests.
+
+## 7. Next Actions
 
 1. Confirm these assumptions + stack with Pranav.
 2. Collect brand assets (logo, color palette, typography guidelines).
